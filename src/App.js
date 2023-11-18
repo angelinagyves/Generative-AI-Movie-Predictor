@@ -37,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hello AISC!</p>
+        <p>Enter movie titles and your rating out of five stars!</p>
         <form onSubmit={e => e.preventDefault()}>
           {movies.map((movie, index) => (
             <div key={index}>
@@ -84,3 +84,4 @@ function App() {
 }
 
 export default App;
+

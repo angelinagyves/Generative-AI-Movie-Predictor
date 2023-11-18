@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 
 const OpenAIApi = require('openai');
 const cors = require('cors');
+
 const app = express();
 const PORT = 3001;
 
